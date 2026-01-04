@@ -44,7 +44,7 @@ const AppRoutes = () => {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/Senior-Sale3/">
         <div className="min-h-screen bg-gray-50">
           <AppRoutes />
         </div>
