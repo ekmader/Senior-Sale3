@@ -22,7 +22,6 @@ export interface Message {
   id: string;
   fromUserId: string;
   toUserId: string;
-  itemId: string;
   text: string;
   createdAt: any;
 }
